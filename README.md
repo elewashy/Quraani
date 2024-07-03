@@ -1,7 +1,7 @@
 # Qurani | v1 | Vue 2
 Quran Web APP v1
 
-[Preview the app](https://qurani22.vercel.app/)
+[Preview the app](https://quraani.vercel.app/)
 
 
 ## Project setup

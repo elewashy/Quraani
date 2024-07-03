@@ -15,7 +15,7 @@
           </div>
         </div>
         <vue-plyr ref="plyr">
-          <audio>
+          <audio autoplay>
             <source :src="playerStream" type="audio/mp3"/>
           </audio>
         </vue-plyr>
@@ -25,27 +25,42 @@
 </template>
 
 <script>
-  export default {
-    name: 'Player',
-    props: ['playerStream', 'getStreamTitle'],
-    data() {
-      return {
-        fullScreen: false
-      }
-    },
-    computed: {
-      player () {
-        return this.$refs.plyr.player
-      }
-    },
-    mounted () {
-      document.addEventListener('keydown', (e) => {if(e.keyCode === 27) this.fullScreen =  false});
-    },
-    methods: {
-      toggleFullScreen(status) {
-        this.fullScreen = status;
+export default {
+  name: 'Player',
+  props: ['playerStream', 'getStreamTitle'],
+  data() {
+    return {
+      fullScreen: false
+    }
+  },
+  computed: {
+    player () {
+      return this.$refs.plyr.player
+    }
+  },
+  mounted () {
+    document.addEventListener('keydown', (e) => {if(e.keyCode === 27) this.fullScreen =  false});
+  },
+  methods: {
+    toggleFullScreen(status) {
+      this.fullScreen = status;
+    }
+  },
+  watch: {
+    playerStream(newStream) {
+      if (this.player) {
+        this.player.source = {
+          type: 'audio',
+          sources: [
+            {
+              src: newStream,
+              type: 'audio/mp3'
+            }
+          ]
+        };
+        this.player.play();
       }
     }
   }
+}
 </script>
-

@@ -22,9 +22,9 @@
             </transition>
             <transition name="slide-fade" mode="out-in">
   <div class="info_card" v-if="playing">
-    <span>تمت برمجة هذا التطبيق عن طريق تزويدنا ب API من خلال</span>
     <span>{{ $t("info") }}</span>
-    <a href="https://www.mp3quran.net/" target="_blank">mp3quran.net</a>
+    <a href="https://www.mp3quran.net/" target="_blank">تمت برمجة هذا التطبيق عن طريق تزويدنا ب API  من خلال
+mp3quran.net</a>
   </div>
 </transition>
 

@@ -179,7 +179,7 @@
           by <a href="#" target="_blank">Elewashy</a> | {{ year }}
         </small>
         <small>
-          نسألكم الدعاء لوالديَ
+          نسألكم الدعاء
         </small>
       </div>
     </simplebar>

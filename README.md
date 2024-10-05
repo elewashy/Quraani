@@ -21,3 +21,7 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### License
+if you are willing to use the module for free i absolutely have no problem , just don't forget to mention me when using it ^.^
+

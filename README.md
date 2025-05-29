@@ -21,7 +21,6 @@
 - 🔍 **بحث متقدم** - Advanced search functionality  
 - 📱 **تصميم متجاوب** - Responsive design for all devices
 - 🌙 **وضع ليلي** - Dark mode support
-- 🌍 **متعدد اللغات** - Multi-language support (Arabic/English)
 - ❤️ **قائمة المفضلة** - Favorites list
 - 📋 **قوائم تشغيل مخصصة** - Custom playlists
 - 👤 **ملفات شخصية** - User profiles
@@ -110,7 +109,7 @@ quraani/
 ## 🎨 لقطات شاشة | Screenshots
 
 <div align="center">
-  <img src="src/assets/imgs/preview.png" alt="الصفحة الرئيسية" width="500">
+  <img src="src/assets/imgs/preview.png" alt="الصفحة الرئيسية" width="700">
 </div>
 
 ## 🤝 المساهمة | Contributing
@@ -126,7 +125,7 @@ quraani/
 ## 📧 التواصل | Contact
 
 - 📧 البريد الإلكتروني: elewashy9@gmail.com
-- 💼 لينكد إن: [your-linkedin](https://linkedin.com/in/elewashy)
+- 💼 لينكد إن: [elewashy](https://linkedin.com/in/elewashy)
 
 ## 📄 الترخيص | License
 
